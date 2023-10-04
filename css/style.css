@@ -1,0 +1,105 @@
+
+*{padding:0;
+margin: 0;
+box-sizing: border-box;}
+p{font-size: 14px;}
+.navbar{
+    background-color: rgb(63, 62, 62);
+}
+.div__container--logue a{color: white;} .div__container--logue a:hover{color: grey;}
+.div__anchor--modifier a{color: grey;}
+.div__anchor--modifier a:first-child{color: white;}
+.div__anchor--modifier a:hover{color: white;}
+.div__anchor--modifier a:last-child{color: rgb(26, 156, 56) ;}
+.div__container--carrousel{height: 80vh;}
+
+.div__container--carrousel-img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    position: relative;
+    top:-80px;
+    filter: brightness(50%); 
+     
+}
+.div__container--carrousel-img--modifier{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    position: relative;
+    top:-250px;
+    filter: brightness(50%); }
+.div__container--title{
+    height: 100%;
+    width: 100%;
+    transform: translate(140%,30%);
+}
+.div__container--title button{color: white;}
+.div__container--all{}
+.div__container--all-information{
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+.div__container--all-information button{color: white;}
+.card-body button{height: 20px;}
+.anchor--modifier{text-decoration-style:dotted ; color: black;}
+textarea{height: 130px;} textarea::placeholder{padding:10px; font-size: 17px;} 
+input{height: 35px;} input::placeholder{font-size: 14px; padding-left: 5px;} 
+input, textarea{border: solid 1px rgb(201, 199, 199);} 
+#send{background-color: rgb(149, 215, 56); height: 40px; color: white;}
+form p{color: rgb(130, 127, 127); font-size: 13px;}
+footer a{
+    width:80px;
+    color: white;
+    height: 90px;
+}
+footer{
+    background: rgb(14,53,79);
+    background: linear-gradient(90deg, rgba(14,53,79,1) 6%, rgba(14,56,85,1) 25%, rgba(7,77,124,1) 100%);}
+
+    @media screen and (max-width: 1720px) and (min-width:1190px){
+        .div__container--carrousel-img--modifier{top:-80px;}
+        .div__container--carrousel-img--modifier, .div__container--carrousel-img{
+            height: 100vh !important;
+            object-fit:cover;
+        }
+        
+    }
+    @media screen and (max-width: 1190px) and (min-width:780px){
+        .div__container--carrousel-img--modifier, .div__container--carrousel-img{
+            height: 100vh !important;
+            object-fit:cover;
+        }
+        .div__container--carrousel-img--modifier{top:-140px}
+        .carousel-item{height: 70vh;}
+        .div__container--title{
+            transform: translate(50%,-30%);
+            height: auto;
+            width: auto;
+        }
+    }
+    @media screen and (max-width: 780px) and (min-width:300px){
+        .div__container--carrousel-img--modifier, .div__container--carrousel-img{
+            height: 100vh !important;
+            object-fit:cover;
+            
+        }
+        .div__container--carrousel-img--modifier{top:-140px}
+        .carousel-item{height: 70vh;}
+        .div__container--title{
+            transform: translate(-13%,-30%);
+            height: auto;
+            width: auto;
+        }
+    }
+    @media screen and (max-width: 1200px) and (min-width:300px){
+        .div__container--all-carousel{height: 50vh;}
+        .div__container--all-carousel img{
+            object-fit:  cover;
+            height: 100%;
+            position: relative;
+            top: -80px;}
+      
+    }
+    
+   
