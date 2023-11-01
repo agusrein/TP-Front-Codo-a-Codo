@@ -123,3 +123,5 @@ footer{
 .div__container--cards div p{color: rgb(130, 127, 127);}
 .div__container--amount{background-color: rgba(161, 217, 248, 0.619);height: 45px;border: 2px solid rgba(152, 209, 240, 0.747) ;}
 .div__container--amount h6{color: rgb(34, 75, 146);}
+
+#mensajeError{color: rgb(233, 54, 23);font-size: 13px;}
